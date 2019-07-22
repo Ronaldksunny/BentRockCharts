@@ -1,0 +1,27 @@
+{
+    "axesSettings": {
+        "horizontal": {
+            "title": "x axis values"
+        },
+        "vertical": {
+            "title": "y axis values"
+        }
+    },
+    "data": [
+        {
+            "title" : "Company zero",
+            "horizontal": ["Jan" , "Feb", "Mar", "Apr", "May", "June", "July"],
+            "vertical": [10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]
+        },
+        {
+            "title" : "Company One",
+            "horizontal": ["Jan" , "Feb", "Mar", "Apr", "May", "June", "July"],
+            "vertical": [34.0, 10.0, 14.0, 20.0, 10.0, 100.0, 60.0]
+        },
+        {
+            "title" : "Company Two",
+            "horizontal": ["Jan" , "Feb", "Mar", "Apr", "May", "June", "July"],
+            "vertical": [110.0, 13.0, 82.0, 55.0, 43.0, 74.0, 60.0]
+        }
+    ]
+}

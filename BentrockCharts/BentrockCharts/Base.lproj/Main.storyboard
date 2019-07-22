@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,50 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BentrockCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xrf-vt-4YA" userLabel="Line Chart">
+                                <rect key="frame" x="0.0" y="20" width="375" height="220"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBm-ot-LqC" userLabel="Bar Chart">
+                                <rect key="frame" x="0.0" y="240" width="375" height="220"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JD-GR-cKw" userLabel="Donut Chart">
+                                <rect key="frame" x="0.0" y="460" width="375" height="220.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fBm-ot-LqC" firstAttribute="top" secondItem="Xrf-vt-4YA" secondAttribute="bottom" id="0Lc-jn-AzD"/>
+                            <constraint firstItem="fBm-ot-LqC" firstAttribute="height" secondItem="Xrf-vt-4YA" secondAttribute="height" id="94r-gq-yCW"/>
+                            <constraint firstItem="fBm-ot-LqC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DGt-WN-hM0"/>
+                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JVD-7s-ziX"/>
+                            <constraint firstItem="fBm-ot-LqC" firstAttribute="width" secondItem="Xrf-vt-4YA" secondAttribute="width" id="L9X-JD-R1t"/>
+                            <constraint firstItem="1JD-GR-cKw" firstAttribute="height" secondItem="Xrf-vt-4YA" secondAttribute="height" id="MQS-uX-3Ky"/>
+                            <constraint firstItem="1JD-GR-cKw" firstAttribute="top" secondItem="fBm-ot-LqC" secondAttribute="bottom" id="Tgw-Y3-RVP"/>
+                            <constraint firstItem="1JD-GR-cKw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZXq-9z-qpZ"/>
+                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cHz-Ma-kbO"/>
+                            <constraint firstItem="1JD-GR-cKw" firstAttribute="width" secondItem="Xrf-vt-4YA" secondAttribute="width" id="dy0-ZP-v02"/>
+                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="tsL-s9-Ci2"/>
+                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="vz5-Zn-WNa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="barChartContainer" destination="fBm-ot-LqC" id="btw-HR-Obi"/>
+                        <outlet property="donutChartContainer" destination="1JD-GR-cKw" id="uyM-Kx-Vh9"/>
+                        <outlet property="lineChartContainer" destination="Xrf-vt-4YA" id="51b-IT-21x"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

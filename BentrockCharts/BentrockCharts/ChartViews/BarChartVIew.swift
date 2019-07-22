@@ -7,6 +7,7 @@ struct BarChartSettings {
     var showGrid = true
     var showLegends = true
     var showAxisLabels = true
+    var showAxisTitles = false
     var colorsArray:[UIColor] = []
 }
 
@@ -78,7 +79,7 @@ class BarChartView: ChartView {
     
     private func showAxisTitles() {
         
-        guard let axesSettings = chartData?.axesSettings else { return }
+        guard let axesSettings = chartData?.axesSettings, chartSettings.showAxisTitles else { return }
         
         let x_labelLayer = CATextLayer()
         x_labelLayer.frame = CGRect(x: leftMargin, y: topMargin+yAxisLength+Constants.axisLabelFontSize+5, width: xAxisLength, height: Constants.axisTitleFontSize+5)
@@ -98,9 +99,7 @@ class BarChartView: ChartView {
         let current = y_labelLayer.transform
         y_labelLayer.transform = CATransform3DRotate(current, CGFloat.pi, 0, 1.0, 0)//CATransform3DRotate(current, DEGREES_TO_RADIANS(20), 0, 1.0, 0)
         self.layer.addSublayer(y_labelLayer)
-        
-        
-        
+
     }
     
     private func renderAxes() {
@@ -134,7 +133,7 @@ class BarChartView: ChartView {
         
         let allowedLength = frame.width * 0.9
         let startXPoint = frame.width - allowedLength
-        let startYPoint = topMargin + yAxisLength + Constants.axisLabelFontSize + Constants.axisTitleFontSize + Constants.legendBoxSize/2 + 10
+        let startYPoint = topMargin + yAxisLength + Constants.axisLabelFontSize + Constants.axisTitleFontSize + Constants.legendBoxSize/2 + 5
         let legendSpacing = allowedLength/CGFloat(colorsArray.count)
         let labelWidth = legendSpacing - Constants.legendBoxSize/2 - 5
         
@@ -150,7 +149,7 @@ class BarChartView: ChartView {
                 self.layer.addSublayer(pathLayer)
                 
                 let labelLayer = CATextLayer()
-                labelLayer.frame = CGRect(x: xPoint + Constants.legendBoxSize/2 + 5, y: startYPoint-Constants.legendLabelFontSize/2, width: labelWidth, height: Constants.legendLabelFontSize+5)
+                labelLayer.frame = CGRect(x: xPoint + Constants.legendBoxSize/2 + 5, y: startYPoint-Constants.legendLabelFontSize/2, width: labelWidth, height: Constants.legendLabelFontSize+10)
                 labelLayer.foregroundColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1).cgColor
                 labelLayer.fontSize = Constants.legendLabelFontSize
                 labelLayer.string = title
@@ -228,7 +227,7 @@ class BarChartView: ChartView {
             // shows the labels for the first legend
             if chartSettings.showAxisLabels {
                 let labelLayer = CATextLayer()
-                labelLayer.frame = CGRect(x: xPos, y: topMargin+yAxisLength, width: xDivisorLenght, height: Constants.axisLabelFontSize)
+                labelLayer.frame = CGRect(x: xPos, y: topMargin+yAxisLength, width: xDivisorLenght, height: Constants.axisLabelFontSize + 5)
                 labelLayer.foregroundColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1).cgColor
                 labelLayer.fontSize = Constants.axisLabelFontSize
                 labelLayer.string = legend.horizontal[i].stringValue

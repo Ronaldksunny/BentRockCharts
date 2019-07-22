@@ -18,6 +18,7 @@
 		61C9077B22E65A56008CDCF4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077622E65A56008CDCF4 /* ChartView.swift */; };
 		61C9077C22E65A56008CDCF4 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077722E65A56008CDCF4 /* LineChartView.swift */; };
 		61C9077D22E65A56008CDCF4 /* BarChartVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077822E65A56008CDCF4 /* BarChartVIew.swift */; };
+		61C9078222E66098008CDCF4 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C9078122E66098008CDCF4 /* ChartData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		61C9077622E65A56008CDCF4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		61C9077722E65A56008CDCF4 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
 		61C9077822E65A56008CDCF4 /* BarChartVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartVIew.swift; sourceTree = "<group>"; };
+		61C9078122E66098008CDCF4 /* ChartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +90,9 @@
 			isa = PBXGroup;
 			children = (
 				61C9077322E65A56008CDCF4 /* ChartViews */,
-				61C9075322E657E2008CDCF4 /* AppDelegate.swift */,
+				61C9077E22E66019008CDCF4 /* SampleData */,
 				61C9075522E657E2008CDCF4 /* ViewController.swift */,
+				61C9075322E657E2008CDCF4 /* AppDelegate.swift */,
 				61C9075722E657E2008CDCF4 /* Main.storyboard */,
 				61C9075A22E657E4008CDCF4 /* Assets.xcassets */,
 				61C9075C22E657E4008CDCF4 /* LaunchScreen.storyboard */,
@@ -117,6 +120,14 @@
 				61C9077822E65A56008CDCF4 /* BarChartVIew.swift */,
 			);
 			path = ChartViews;
+			sourceTree = "<group>";
+		};
+		61C9077E22E66019008CDCF4 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				61C9078122E66098008CDCF4 /* ChartData.json */,
+			);
+			path = SampleData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				61C9075E22E657E4008CDCF4 /* LaunchScreen.storyboard in Resources */,
 				61C9075B22E657E4008CDCF4 /* Assets.xcassets in Resources */,
+				61C9078222E66098008CDCF4 /* ChartData.json in Resources */,
 				61C9075922E657E2008CDCF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
