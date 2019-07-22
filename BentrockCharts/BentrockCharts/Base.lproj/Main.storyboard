@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,19 +14,19 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BentrockCharts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xrf-vt-4YA" userLabel="Line Chart">
-                                <rect key="frame" x="0.0" y="20" width="375" height="220"/>
+                                <rect key="frame" x="0.0" y="43.999999999999986" width="375" height="243.66666666666663"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fBm-ot-LqC" userLabel="Bar Chart">
-                                <rect key="frame" x="0.0" y="240" width="375" height="220"/>
+                                <rect key="frame" x="0.0" y="287.66666666666669" width="375" height="243.66666666666669"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1JD-GR-cKw" userLabel="Donut Chart">
-                                <rect key="frame" x="0.0" y="460" width="375" height="220.5"/>
+                                <rect key="frame" x="0.0" y="531.33333333333337" width="375" height="243.33333333333337"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -42,7 +42,7 @@
                             <constraint firstItem="1JD-GR-cKw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZXq-9z-qpZ"/>
                             <constraint firstItem="Xrf-vt-4YA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cHz-Ma-kbO"/>
                             <constraint firstItem="1JD-GR-cKw" firstAttribute="width" secondItem="Xrf-vt-4YA" secondAttribute="width" id="dy0-ZP-v02"/>
-                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="tsL-s9-Ci2"/>
+                            <constraint firstItem="Xrf-vt-4YA" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.3" id="tsL-s9-Ci2"/>
                             <constraint firstItem="Xrf-vt-4YA" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="vz5-Zn-WNa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
