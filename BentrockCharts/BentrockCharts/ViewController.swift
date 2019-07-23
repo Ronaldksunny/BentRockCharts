@@ -24,19 +24,31 @@ class ViewController: UIViewController {
     
     private func addLineChartView() {
         guard let jsonData = dataFromFile("ChartData") else { assertionFailure("data not available"); return }
-        guard let lineChartView = LineChartView(json: jsonData) else { return }
+        
+        var settings = LineChartSettings()
+        settings.colorsArray = [UIColor.red, .green, .blue]
+        
+        guard let lineChartView = LineChartView(json: jsonData, settings: settings) else { return }
         addConstrainedSubview(containerView: lineChartContainer, chartView: lineChartView)
     }
     
     private func addBarChartView() {
         guard let jsonData = dataFromFile("ChartData") else { assertionFailure("data not available"); return }
-        guard let barChartView = BarChartView(json: jsonData) else { return }
+        
+        var settings = BarChartSettings()
+        settings.colorsArray = [UIColor.red, .green, .blue]
+        
+        guard let barChartView = BarChartView(json: jsonData, settings: settings) else { return }
         addConstrainedSubview(containerView: barChartContainer, chartView: barChartView)
     }
     
     private func addDonutChartView() {
         guard let jsonData = dataFromFile("ChartData") else { assertionFailure("data not available"); return }
-        guard let donutChartView = DonutChartView(json: jsonData) else { return }
+        
+        var settings = DonutChartSettings()
+        settings.colorsArray = [UIColor.red, .green, .blue]
+        
+        guard let donutChartView = DonutChartView(json: jsonData, settings: settings) else { return }
         addConstrainedSubview(containerView: donutChartContainer, chartView: donutChartView)
     }
     

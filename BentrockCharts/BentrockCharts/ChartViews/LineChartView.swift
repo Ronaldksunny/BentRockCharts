@@ -36,6 +36,7 @@ class LineChartView: ChartView {
         self.chartSettings = settings
         self.colorsArray = settings.colorsArray
         super.init(frame: .zero)
+        self.backgroundColor = UIColor.clear
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -92,7 +93,8 @@ class LineChartView: ChartView {
     }
     
     private func showLegends() {
-        guard let data = chartData?.data, chartSettings.showLegends, !colorsArray.isEmpty else { assertionFailure("colors array can not be empty. Render legends after path. Consider rendering last"); return }
+        guard let data = chartData?.data, !colorsArray.isEmpty else { assertionFailure("colors array can not be empty. Consider rendering last"); return }
+        guard chartSettings.showLegends else { return }
         
         let allowedLength = frame.width * 0.9
         let startXPoint = frame.width - allowedLength
