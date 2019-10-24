@@ -12,53 +12,41 @@
 		61C9075922E657E2008CDCF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075722E657E2008CDCF4 /* Main.storyboard */; };
 		61C9075B22E657E4008CDCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075A22E657E4008CDCF4 /* Assets.xcassets */; };
 		61C9075E22E657E4008CDCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075C22E657E4008CDCF4 /* LaunchScreen.storyboard */; };
-		61C9076922E657E4008CDCF4 /* BentrockChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9076822E657E4008CDCF4 /* BentrockChartsTests.swift */; };
-		61C9077922E65A56008CDCF4 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077422E65A56008CDCF4 /* ChartData.swift */; };
-		61C9077A22E65A56008CDCF4 /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077522E65A56008CDCF4 /* DonutChartView.swift */; };
-		61C9077B22E65A56008CDCF4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077622E65A56008CDCF4 /* ChartView.swift */; };
-		61C9077C22E65A56008CDCF4 /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077722E65A56008CDCF4 /* LineChartView.swift */; };
-		61C9077D22E65A56008CDCF4 /* BarChartVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C9077822E65A56008CDCF4 /* BarChartVIew.swift */; };
 		61C9078222E66098008CDCF4 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C9078122E66098008CDCF4 /* ChartData.json */; };
+		61FF78942334536600FBA1E7 /* BentrockCharts.framework in Sources */ = {isa = PBXBuildFile; fileRef = 61FF78922334520600FBA1E7 /* BentrockCharts.framework */; };
+		61FF78962334538F00FBA1E7 /* BentrockCharts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61FF78922334520600FBA1E7 /* BentrockCharts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		61C9076522E657E4008CDCF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61C9074822E657E2008CDCF4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61C9074F22E657E2008CDCF4;
-			remoteInfo = BentrockCharts;
+/* Begin PBXCopyFilesBuildPhase section */
+		61FF78972334538F00FBA1E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				61FF78962334538F00FBA1E7 /* BentrockCharts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		61C9075022E657E2008CDCF4 /* BentrockCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentrockCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C9075022E657E2008CDCF4 /* BentrockChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentrockChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C9075322E657E2008CDCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C9075522E657E2008CDCF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61C9075822E657E2008CDCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61C9075A22E657E4008CDCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61C9075D22E657E4008CDCF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61C9075F22E657E4008CDCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61C9076422E657E4008CDCF4 /* BentrockChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BentrockChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C9076822E657E4008CDCF4 /* BentrockChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentrockChartsTests.swift; sourceTree = "<group>"; };
 		61C9076A22E657E4008CDCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61C9077422E65A56008CDCF4 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
-		61C9077522E65A56008CDCF4 /* DonutChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
-		61C9077622E65A56008CDCF4 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
-		61C9077722E65A56008CDCF4 /* LineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
-		61C9077822E65A56008CDCF4 /* BarChartVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartVIew.swift; sourceTree = "<group>"; };
 		61C9078122E66098008CDCF4 /* ChartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
+		61FF78922334520600FBA1E7 /* BentrockCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BentrockCharts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61C9074D22E657E2008CDCF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61C9076122E657E4008CDCF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +68,7 @@
 		61C9075122E657E2008CDCF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				61C9075022E657E2008CDCF4 /* BentrockCharts.app */,
-				61C9076422E657E4008CDCF4 /* BentrockChartsTests.xctest */,
+				61C9075022E657E2008CDCF4 /* BentrockChartsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,7 +76,7 @@
 		61C9075222E657E2008CDCF4 /* BentrockCharts */ = {
 			isa = PBXGroup;
 			children = (
-				61C9077322E65A56008CDCF4 /* ChartViews */,
+				61FF78922334520600FBA1E7 /* BentrockCharts.framework */,
 				61C9077E22E66019008CDCF4 /* SampleData */,
 				61C9075522E657E2008CDCF4 /* ViewController.swift */,
 				61C9075322E657E2008CDCF4 /* AppDelegate.swift */,
@@ -110,18 +97,6 @@
 			path = BentrockChartsTests;
 			sourceTree = "<group>";
 		};
-		61C9077322E65A56008CDCF4 /* ChartViews */ = {
-			isa = PBXGroup;
-			children = (
-				61C9077422E65A56008CDCF4 /* ChartData.swift */,
-				61C9077522E65A56008CDCF4 /* DonutChartView.swift */,
-				61C9077622E65A56008CDCF4 /* ChartView.swift */,
-				61C9077722E65A56008CDCF4 /* LineChartView.swift */,
-				61C9077822E65A56008CDCF4 /* BarChartVIew.swift */,
-			);
-			path = ChartViews;
-			sourceTree = "<group>";
-		};
 		61C9077E22E66019008CDCF4 /* SampleData */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,40 +108,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		61C9074F22E657E2008CDCF4 /* BentrockCharts */ = {
+		61C9074F22E657E2008CDCF4 /* BentrockChartsDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockCharts" */;
+			buildConfigurationList = 61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsDemo" */;
 			buildPhases = (
 				61C9074C22E657E2008CDCF4 /* Sources */,
 				61C9074D22E657E2008CDCF4 /* Frameworks */,
 				61C9074E22E657E2008CDCF4 /* Resources */,
+				61FF78972334538F00FBA1E7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BentrockCharts;
+			name = BentrockChartsDemo;
 			productName = BentrockCharts;
-			productReference = 61C9075022E657E2008CDCF4 /* BentrockCharts.app */;
+			productReference = 61C9075022E657E2008CDCF4 /* BentrockChartsDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		61C9076322E657E4008CDCF4 /* BentrockChartsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 61C9077022E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsTests" */;
-			buildPhases = (
-				61C9076022E657E4008CDCF4 /* Sources */,
-				61C9076122E657E4008CDCF4 /* Frameworks */,
-				61C9076222E657E4008CDCF4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61C9076622E657E4008CDCF4 /* PBXTargetDependency */,
-			);
-			name = BentrockChartsTests;
-			productName = BentrockChartsTests;
-			productReference = 61C9076422E657E4008CDCF4 /* BentrockChartsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -181,13 +139,9 @@
 					61C9074F22E657E2008CDCF4 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					61C9076322E657E4008CDCF4 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 61C9074F22E657E2008CDCF4;
-					};
 				};
 			};
-			buildConfigurationList = 61C9074B22E657E2008CDCF4 /* Build configuration list for PBXProject "BentrockCharts" */;
+			buildConfigurationList = 61C9074B22E657E2008CDCF4 /* Build configuration list for PBXProject "BentrockChartsDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,8 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				61C9074F22E657E2008CDCF4 /* BentrockCharts */,
-				61C9076322E657E4008CDCF4 /* BentrockChartsTests */,
+				61C9074F22E657E2008CDCF4 /* BentrockChartsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -218,13 +171,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61C9076222E657E4008CDCF4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,33 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FF78942334536600FBA1E7 /* BentrockCharts.framework in Sources */,
 				61C9075622E657E2008CDCF4 /* ViewController.swift in Sources */,
-				61C9077922E65A56008CDCF4 /* ChartData.swift in Sources */,
-				61C9077A22E65A56008CDCF4 /* DonutChartView.swift in Sources */,
-				61C9077B22E65A56008CDCF4 /* ChartView.swift in Sources */,
-				61C9077D22E65A56008CDCF4 /* BarChartVIew.swift in Sources */,
 				61C9075422E657E2008CDCF4 /* AppDelegate.swift in Sources */,
-				61C9077C22E65A56008CDCF4 /* LineChartView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61C9076022E657E4008CDCF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61C9076922E657E4008CDCF4 /* BentrockChartsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		61C9076622E657E4008CDCF4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61C9074F22E657E2008CDCF4 /* BentrockCharts */;
-			targetProxy = 61C9076522E657E4008CDCF4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		61C9075722E657E2008CDCF4 /* Main.storyboard */ = {
@@ -402,12 +328,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BentrockCharts",
+				);
 				INFOPLIST_FILE = BentrockCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockChartsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -421,67 +351,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BentrockCharts",
+				);
 				INFOPLIST_FILE = BentrockCharts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockCharts;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockChartsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		61C9077122E657E4008CDCF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = BentrockChartsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockChartsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BentrockCharts.app/BentrockCharts";
-			};
-			name = Debug;
-		};
-		61C9077222E657E4008CDCF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = BentrockChartsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bentrock.BentrockChartsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BentrockCharts.app/BentrockCharts";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		61C9074B22E657E2008CDCF4 /* Build configuration list for PBXProject "BentrockCharts" */ = {
+		61C9074B22E657E2008CDCF4 /* Build configuration list for PBXProject "BentrockChartsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61C9076B22E657E4008CDCF4 /* Debug */,
@@ -490,20 +380,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockCharts" */ = {
+		61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61C9076E22E657E4008CDCF4 /* Debug */,
 				61C9076F22E657E4008CDCF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61C9077022E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61C9077122E657E4008CDCF4 /* Debug */,
-				61C9077222E657E4008CDCF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,6 +3,7 @@
 //  BentrockCharts
 
 import UIKit
+import BentrockCharts
 
 class ViewController: UIViewController {
 
