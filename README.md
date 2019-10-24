@@ -12,7 +12,7 @@ Bentrock Charts are designed to work with the data provided in `json` format. It
 
 ## How to use
 
-Copy the files needed for rendering the charts to your project. For example if you need to render bar chart and line chart copy `LineChartView` and `BarChartView` and its superclass file `ChartView` to your project. Initialize the view by providing the json. 
+Copy the `BentrockCharts.framework` to your project and import the module wherever needed. Initialize the view by providing the json and add it as a subView.
 
 ```swift
 var lineChartView = LineChartView(json: jsonData)
