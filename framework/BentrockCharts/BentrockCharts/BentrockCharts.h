@@ -2,7 +2,6 @@
 //  BentrockCharts.h
 //  BentrockCharts
 //
-//  Created by Koonamparayil Sunny, Ronald-CW on 9/19/19.
 //  Copyright © 2019 Bentrock. All rights reserved.
 //
 
