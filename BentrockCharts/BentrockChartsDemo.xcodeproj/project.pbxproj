@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,17 +14,18 @@
 		61C9075E22E657E4008CDCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075C22E657E4008CDCF4 /* LaunchScreen.storyboard */; };
 		61C9078222E66098008CDCF4 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C9078122E66098008CDCF4 /* ChartData.json */; };
 		61FF78942334536600FBA1E7 /* BentrockCharts.framework in Sources */ = {isa = PBXBuildFile; fileRef = 61FF78922334520600FBA1E7 /* BentrockCharts.framework */; };
-		61FF78962334538F00FBA1E7 /* BentrockCharts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61FF78922334520600FBA1E7 /* BentrockCharts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8266E0E624C6892A00E82BCE /* BentrockCharts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8266E0E524C6892A00E82BCE /* BentrockCharts.xcframework */; };
+		8266E0E724C6892A00E82BCE /* BentrockCharts.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8266E0E524C6892A00E82BCE /* BentrockCharts.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		61FF78972334538F00FBA1E7 /* Embed Frameworks */ = {
+		8266E0E824C6892A00E82BCE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				61FF78962334538F00FBA1E7 /* BentrockCharts.framework in Embed Frameworks */,
+				8266E0E724C6892A00E82BCE /* BentrockCharts.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +43,8 @@
 		61C9076822E657E4008CDCF4 /* BentrockChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentrockChartsTests.swift; sourceTree = "<group>"; };
 		61C9076A22E657E4008CDCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C9078122E66098008CDCF4 /* ChartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
-		61FF78922334520600FBA1E7 /* BentrockCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BentrockCharts.framework; sourceTree = "<group>"; };
+		61FF78922334520600FBA1E7 /* BentrockCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BentrockCharts.framework; path = /Users/evelyn/MyProjects/Chart/BentrockCharts/BentrockCharts/BentrockCharts.framework; sourceTree = "<absolute>"; };
+		8266E0E524C6892A00E82BCE /* BentrockCharts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BentrockCharts.xcframework; path = ../framework/BentrockCharts/BentrockCharts.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8266E0E624C6892A00E82BCE /* BentrockCharts.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +65,8 @@
 				61C9075222E657E2008CDCF4 /* BentrockCharts */,
 				61C9076722E657E4008CDCF4 /* BentrockChartsTests */,
 				61C9075122E657E2008CDCF4 /* Products */,
+				8266E0DF24C687D400E82BCE /* Frameworks */,
+				8266E0E424C6890C00E82BCE /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +81,6 @@
 		61C9075222E657E2008CDCF4 /* BentrockCharts */ = {
 			isa = PBXGroup;
 			children = (
-				61FF78922334520600FBA1E7 /* BentrockCharts.framework */,
 				61C9077E22E66019008CDCF4 /* SampleData */,
 				61C9075522E657E2008CDCF4 /* ViewController.swift */,
 				61C9075322E657E2008CDCF4 /* AppDelegate.swift */,
@@ -105,6 +109,22 @@
 			path = SampleData;
 			sourceTree = "<group>";
 		};
+		8266E0DF24C687D400E82BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8266E0E524C6892A00E82BCE /* BentrockCharts.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8266E0E424C6890C00E82BCE /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				61FF78922334520600FBA1E7 /* BentrockCharts.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,7 +135,7 @@
 				61C9074C22E657E2008CDCF4 /* Sources */,
 				61C9074D22E657E2008CDCF4 /* Frameworks */,
 				61C9074E22E657E2008CDCF4 /* Resources */,
-				61FF78972334538F00FBA1E7 /* Embed Frameworks */,
+				8266E0E824C6892A00E82BCE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

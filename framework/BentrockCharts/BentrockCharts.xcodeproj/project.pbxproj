@@ -3,11 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8266E0DA24C683CF00E82BCE /* XCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8266E0DB24C683CF00E82BCE /* Build configuration list for PBXAggregateTarget "XCFramework" */;
+			buildPhases = (
+				8266E0DE24C683E100E82BCE /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = XCFramework;
+			productName = XCFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		61FF787723344FF800FBA1E7 /* BentrockCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FF786D23344FF800FBA1E7 /* BentrockCharts.framework */; };
+		61FF787723344FF800FBA1E7 /* BentrockCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FF786D23344FF800FBA1E7 /* BentrockCharts.framework */; platformFilter = ios; };
 		61FF787C23344FF800FBA1E7 /* BentrockChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FF787B23344FF800FBA1E7 /* BentrockChartsTests.swift */; };
 		61FF787E23344FF800FBA1E7 /* BentrockCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 61FF787023344FF800FBA1E7 /* BentrockCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61FF788D2334505100FBA1E7 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FF78882334505100FBA1E7 /* ChartData.swift */; };
@@ -176,6 +190,9 @@
 					61FF787523344FF800FBA1E7 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8266E0DA24C683CF00E82BCE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 61FF786723344FF800FBA1E7 /* Build configuration list for PBXProject "BentrockCharts" */;
@@ -192,6 +209,7 @@
 			targets = (
 				61FF786C23344FF800FBA1E7 /* BentrockCharts */,
 				61FF787523344FF800FBA1E7 /* BentrockChartsTests */,
+				8266E0DA24C683CF00E82BCE /* XCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +247,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: Detected, stopping\"\nelse\nexport ALREADYINVOKED=\"true\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules (from iphonesimulator build) to the copied framework directory\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"\n\nfi\n";
+			shellScript = "
+";
+		};
+		8266E0DE24C683E100E82BCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rd \"XCFramework\"\nxcodebuild archive -scheme BentrockCharts -destination \"generic/platform=iOS\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS.xcarchive\" SKIP_INSTALL=NO\nxcodebuild archive -scheme BentrockCharts -destination \"platform=iOS Simulator,name=iPhone 11\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive\" SKIP_INSTALL=NO\n\nxcodebuild -create-xcframework -framework \"$TEMP_DIR/BentrockCharts.iOS.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -framework \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -output \"BentrockCharts.xcframework\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -259,6 +295,7 @@
 /* Begin PBXTargetDependency section */
 		61FF787923344FF800FBA1E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 61FF786C23344FF800FBA1E7 /* BentrockCharts */;
 			targetProxy = 61FF787823344FF800FBA1E7 /* PBXContainerItemProxy */;
 		};
@@ -391,6 +428,7 @@
 		61FF788223344FF800FBA1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -416,6 +454,7 @@
 		61FF788323344FF800FBA1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -474,6 +513,22 @@
 			};
 			name = Release;
 		};
+		8266E0DC24C683CF00E82BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8266E0DD24C683CF00E82BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -500,6 +555,15 @@
 			buildConfigurations = (
 				61FF788523344FF800FBA1E7 /* Debug */,
 				61FF788623344FF800FBA1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8266E0DB24C683CF00E82BCE /* Build configuration list for PBXAggregateTarget "XCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8266E0DC24C683CF00E82BCE /* Debug */,
+				8266E0DD24C683CF00E82BCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
-options: "fcfa5a8754fa4183cbe578afbf119a2e"
-build_time: [1571892812, 102915000]
-inputs:
-  "/Users/a1329183/Desktop/BentrockCharts/BentrockCharts/ChartViews/DonutChartView.swift": [9223372036, 854775807]
-  "/Users/a1329183/Desktop/BentrockCharts/BentrockCharts/ChartViews/ChartData.swift": [9223372036, 854775807]
-  "/Users/a1329183/Desktop/BentrockCharts/BentrockCharts/ChartViews/BarChartVIew.swift": [9223372036, 854775807]
-  "/Users/a1329183/Desktop/BentrockCharts/BentrockCharts/ChartViews/ChartView.swift": [9223372036, 854775807]
-  "/Users/a1329183/Desktop/BentrockCharts/BentrockCharts/ChartViews/LineChartView.swift": [9223372036, 854775807]
