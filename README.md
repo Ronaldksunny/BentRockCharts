@@ -3,6 +3,13 @@ Bentrock Charts are designed to work with the data provided in `json` format. It
 
 <img src="Docs/IMG_0098.png" width="200">  <img src="Docs/IMG_0099.png" width="200">  <img src="Docs/IMG_0100.png" width="200">  <img src="Docs/IMG_0101.png" width="200"> 
 
+# Requirements
+* Xcode 11 and above
+* Swift 5
+
+# Supports
+* XCFramework
+* iPhone and Simulator
 
 ## Types of charts available
 
@@ -12,7 +19,7 @@ Bentrock Charts are designed to work with the data provided in `json` format. It
 
 ## How to use
 
-Copy the `BentrockCharts.framework` to your project and import the module wherever needed. Initialize the view by providing the json and add it as a subView.
+Copy the `BentrockCharts.xcframework` to your project and import the module wherever needed. Initialize the view by providing the json and add it as a subView.
 
 ```swift
 var lineChartView = LineChartView(json: jsonData)
