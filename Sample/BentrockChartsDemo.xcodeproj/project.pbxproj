@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,7 @@
 		61C9075B22E657E4008CDCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075A22E657E4008CDCF4 /* Assets.xcassets */; };
 		61C9075E22E657E4008CDCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075C22E657E4008CDCF4 /* LaunchScreen.storyboard */; };
 		61C9078222E66098008CDCF4 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C9078122E66098008CDCF4 /* ChartData.json */; };
-		61FF78942334536600FBA1E7 /* BentrockCharts.framework in Sources */ = {isa = PBXBuildFile; fileRef = 61FF78922334520600FBA1E7 /* BentrockCharts.framework */; };
-		8214CA2C24C6C47F003B5B7A /* BentrockCharts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214CA2B24C6C47F003B5B7A /* BentrockCharts.xcframework */; };
+		F95EF43F4F4931FC39D3E9B0 /* Pods_BentrockChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8B0C0DB8A450D85C0C4205 /* Pods_BentrockChartsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2ABCE56AADEFF5E879B66AC2 /* Pods-BentrockChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentrockChartsDemo.debug.xcconfig"; path = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		61C9075022E657E2008CDCF4 /* BentrockChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentrockChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C9075322E657E2008CDCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C9075522E657E2008CDCF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		61C9076822E657E4008CDCF4 /* BentrockChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentrockChartsTests.swift; sourceTree = "<group>"; };
 		61C9076A22E657E4008CDCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C9078122E66098008CDCF4 /* ChartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
-		61FF78922334520600FBA1E7 /* BentrockCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BentrockCharts.framework; path = /Users/evelyn/MyProjects/Chart/BentrockCharts/BentrockCharts/BentrockCharts.framework; sourceTree = "<absolute>"; };
-		8214CA2B24C6C47F003B5B7A /* BentrockCharts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BentrockCharts.xcframework; path = BentrockChartsDemo/BentrockCharts.xcframework; sourceTree = "<group>"; };
+		9B017C484CC6AB849E1C69B2 /* Pods-BentrockChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentrockChartsDemo.release.xcconfig"; path = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CF8B0C0DB8A450D85C0C4205 /* Pods_BentrockChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BentrockChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,13 +50,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8214CA2C24C6C47F003B5B7A /* BentrockCharts.xcframework in Frameworks */,
+				F95EF43F4F4931FC39D3E9B0 /* Pods_BentrockChartsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46171561FF313980BDCA123A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ABCE56AADEFF5E879B66AC2 /* Pods-BentrockChartsDemo.debug.xcconfig */,
+				9B017C484CC6AB849E1C69B2 /* Pods-BentrockChartsDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		61C9074722E657E2008CDCF4 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +74,7 @@
 				61C9075122E657E2008CDCF4 /* Products */,
 				8266E0DF24C687D400E82BCE /* Frameworks */,
 				8266E0E424C6890C00E82BCE /* Recovered References */,
+				46171561FF313980BDCA123A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,7 +120,7 @@
 		8266E0DF24C687D400E82BCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8214CA2B24C6C47F003B5B7A /* BentrockCharts.xcframework */,
+				CF8B0C0DB8A450D85C0C4205 /* Pods_BentrockChartsDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,7 +128,6 @@
 		8266E0E424C6890C00E82BCE /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				61FF78922334520600FBA1E7 /* BentrockCharts.framework */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsDemo" */;
 			buildPhases = (
+				7C5645E664AD379F58BB67AA /* [CP] Check Pods Manifest.lock */,
 				61C9074C22E657E2008CDCF4 /* Sources */,
 				61C9074D22E657E2008CDCF4 /* Frameworks */,
 				61C9074E22E657E2008CDCF4 /* Resources */,
@@ -191,12 +201,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C5645E664AD379F58BB67AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BentrockChartsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		61C9074C22E657E2008CDCF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61FF78942334536600FBA1E7 /* BentrockCharts.framework in Sources */,
 				61C9075622E657E2008CDCF4 /* ViewController.swift in Sources */,
 				61C9075422E657E2008CDCF4 /* AppDelegate.swift in Sources */,
 			);
@@ -342,6 +376,7 @@
 		};
 		61C9076E22E657E4008CDCF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABCE56AADEFF5E879B66AC2 /* Pods-BentrockChartsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -365,6 +400,7 @@
 		};
 		61C9076F22E657E4008CDCF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B017C484CC6AB849E1C69B2 /* Pods-BentrockChartsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

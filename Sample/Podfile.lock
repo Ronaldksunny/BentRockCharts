@@ -1,0 +1,16 @@
+PODS:
+  - BentrockCharts (0.0.1)
+
+DEPENDENCIES:
+  - BentrockCharts (from `../framework/SourceCode`)
+
+EXTERNAL SOURCES:
+  BentrockCharts:
+    :path: "../framework/SourceCode"
+
+SPEC CHECKSUMS:
+  BentrockCharts: ede0b7763ed63a060d9aa72025b2ca808ab129c2
+
+PODFILE CHECKSUM: 389cb52c7dcf4f41ab8f4bd8037236d95b1ae6ce
+
+COCOAPODS: 1.9.3
