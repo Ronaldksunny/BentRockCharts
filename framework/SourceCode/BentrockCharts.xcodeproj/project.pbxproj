@@ -246,7 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rm -rd \"XCFramework\"\nxcodebuild archive -scheme BentrockCharts -destination \"generic/platform=iOS\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS.xcarchive\" SKIP_INSTALL=NO\nxcodebuild archive -scheme BentrockCharts -destination \"platform=iOS Simulator,name=iPhone 11\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive\" SKIP_INSTALL=NO\n\nxcodebuild -create-xcframework -framework \"$TEMP_DIR/BentrockCharts.iOS.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -framework \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -output \"$PROJECT_DIR/../SDK/BentrockCharts.xcframework\"\n\nopen \"$PROJECT_DIR/../SDK\"\n";
+			shellScript = "rm -rd \"XCFramework\"\nxcodebuild archive -scheme BentrockCharts -destination \"generic/platform=iOS\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS.xcarchive\" SKIP_INSTALL=NO\nxcodebuild archive -scheme BentrockCharts -destination \"platform=iOS Simulator,name=iPhone 11\" -archivePath \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive\" SKIP_INSTALL=NO\n\nxcodebuild -create-xcframework -framework \"$TEMP_DIR/BentrockCharts.iOS.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -framework \"$TEMP_DIR/BentrockCharts.iOS-simulator.xcarchive/Products/Library/Frameworks/BentrockCharts.framework\" -output \"$PROJECT_DIR/../SDK/BentrockCharts.xcframework\"\n\nopen \"$PROJECT_DIR/../../SDK\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

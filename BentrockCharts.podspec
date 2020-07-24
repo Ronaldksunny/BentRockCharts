@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "BentrockCharts"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A library created in swift to draw chats."
   spec.description  = <<-DESC
   This library is created to render the chart based on the data provided in json format.
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.swift_version = "4.2"
   spec.source       = { :git => "https://github.com/Ronaldksunny/BentrockCharts.git", :tag => "#{spec.version}" }
-  spec.public_header_files = "MyFramework.framework/Headers/*.h"
-  spec.source_files = "BentrockCharts.xcframework/Headers/*.h"
-  spec.vendored_frameworks = "BentrockCharts.xcframework"
+  #spec.public_header_files = "./SDK/BentrockCharts.xcframework/**/*.swift/*.h"
+  spec.source_files = "./SDK/BentrockCharts.xcframework"
+  spec.vendored_frameworks = "./SDK/BentrockCharts.xcframework"
 end
