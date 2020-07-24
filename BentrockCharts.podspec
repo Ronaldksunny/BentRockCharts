@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
   spec.swift_version = "4.2"
   spec.source       = { :git => "https://github.com/Ronaldksunny/BentrockCharts.git", :tag => "#{spec.version}" }
-  #spec.public_header_files = "./SDK/BentrockCharts.xcframework/**/*.swift/*.h"
-  spec.source_files = "./SDK/BentrockCharts.xcframework"
-  spec.vendored_frameworks = "./SDK/BentrockCharts.xcframework"
+  spec.public_header_files = "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/*.h"
+  spec.source_files = "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/*.h"
+  spec.vendored_frameworks = "SDK/BentrockCharts.xcframework"
 end
