@@ -40,11 +40,6 @@ public struct BarChartSettings {
   @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-extension Collection {
-  public subscript(safe index: Self.Index) -> Self.Iterator.Element? {
-    get
-  }
-}
 public struct LineChartSettings {
   public var showGrid: Swift.Bool
   public var showLegends: Swift.Bool

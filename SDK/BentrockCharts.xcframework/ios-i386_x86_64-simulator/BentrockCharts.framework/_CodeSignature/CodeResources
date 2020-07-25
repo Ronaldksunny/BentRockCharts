@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		an+mJp4AZ7LzIxTF0FUYmXdMv1Q=
+		5XeeqNOwRhcpHmgTgPiaeQ4Pm6g=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TmC9xCCuQaT09ZJgV7HI2OP6SdE=
+		+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftinterface</key>
 		<data>
-		an+mJp4AZ7LzIxTF0FUYmXdMv1Q=
+		5XeeqNOwRhcpHmgTgPiaeQ4Pm6g=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftmodule</key>
 		<data>
-		TmC9xCCuQaT09ZJgV7HI2OP6SdE=
+		+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aWAZiSB9ImMkiPbomESWV5B7nME=
+		553JdrrGDcyZ6+1KZpaopI3w4nw=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CgikyMQamhSHP3eIAlKs9Rg9uco=
+		zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		aWAZiSB9ImMkiPbomESWV5B7nME=
+		553JdrrGDcyZ6+1KZpaopI3w4nw=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		CgikyMQamhSHP3eIAlKs9Rg9uco=
+		zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -108,22 +108,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			an+mJp4AZ7LzIxTF0FUYmXdMv1Q=
+			5XeeqNOwRhcpHmgTgPiaeQ4Pm6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			p187fG7VtlVWsHn0FvYRW0VEwZyzr13IhcV1pytWo1s=
+			kfpjBdS9gi4dhzR8falIf5jjNNX9A7urJLAM//GQoTo=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TmC9xCCuQaT09ZJgV7HI2OP6SdE=
+			+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XGX5WJOmNONkxxgXAdR54+gG5hWMAsZGvFA4P0pRV6A=
+			dj0LA6hdXmO3oFzKN036/sp+JWt0gGhqHbSy/4Us6Ow=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftdoc</key>
@@ -141,22 +141,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			an+mJp4AZ7LzIxTF0FUYmXdMv1Q=
+			5XeeqNOwRhcpHmgTgPiaeQ4Pm6g=
 			</data>
 			<key>hash2</key>
 			<data>
-			p187fG7VtlVWsHn0FvYRW0VEwZyzr13IhcV1pytWo1s=
+			kfpjBdS9gi4dhzR8falIf5jjNNX9A7urJLAM//GQoTo=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TmC9xCCuQaT09ZJgV7HI2OP6SdE=
+			+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XGX5WJOmNONkxxgXAdR54+gG5hWMAsZGvFA4P0pRV6A=
+			dj0LA6hdXmO3oFzKN036/sp+JWt0gGhqHbSy/4Us6Ow=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -174,22 +174,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aWAZiSB9ImMkiPbomESWV5B7nME=
+			553JdrrGDcyZ6+1KZpaopI3w4nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6PcUnd9ZA9nBt1Xat3REcT7Xtwhi7a7qmh4msaMpxPU=
+			cWzjsYLynikChqWGead4TEZd21IGsVApzSe0Ws3nR5A=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CgikyMQamhSHP3eIAlKs9Rg9uco=
+			zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			m7FRC3YY4ypqUrAHzrBZtluqndR3qbqHbVrlmUjkEXs=
+			rjxAkSTJS2IOz7t6UtXlDDkO4jCSSdVSKS8pi4wmLRs=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftdoc</key>
@@ -207,22 +207,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aWAZiSB9ImMkiPbomESWV5B7nME=
+			553JdrrGDcyZ6+1KZpaopI3w4nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			6PcUnd9ZA9nBt1Xat3REcT7Xtwhi7a7qmh4msaMpxPU=
+			cWzjsYLynikChqWGead4TEZd21IGsVApzSe0Ws3nR5A=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CgikyMQamhSHP3eIAlKs9Rg9uco=
+			zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
 			</data>
 			<key>hash2</key>
 			<data>
-			m7FRC3YY4ypqUrAHzrBZtluqndR3qbqHbVrlmUjkEXs=
+			rjxAkSTJS2IOz7t6UtXlDDkO4jCSSdVSKS8pi4wmLRs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
