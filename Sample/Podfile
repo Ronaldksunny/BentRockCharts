@@ -4,6 +4,6 @@
 target 'BentrockChartsDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-	pod 'BentrockCharts', :path => '../framework/SourceCode'
+	pod 'BentrockCharts', :git => "https://github.com/Ronaldksunny/BentrockCharts.git"
 
 end
