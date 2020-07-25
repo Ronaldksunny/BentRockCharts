@@ -1,0 +1,22 @@
+PODS:
+  - BentrockCharts (0.1.0)
+
+DEPENDENCIES:
+  - BentrockCharts (from `https://github.com/Ronaldksunny/BentrockCharts.git`, tag `0.1.0`)
+
+EXTERNAL SOURCES:
+  BentrockCharts:
+    :git: https://github.com/Ronaldksunny/BentrockCharts.git
+    :tag: 0.1.0
+
+CHECKOUT OPTIONS:
+  BentrockCharts:
+    :git: https://github.com/Ronaldksunny/BentrockCharts.git
+    :tag: 0.1.0
+
+SPEC CHECKSUMS:
+  BentrockCharts: 689ef996ae8353ef6334f8896616ec3e03fc35e0
+
+PODFILE CHECKSUM: de0197aa5f00022b0029429762c3ef51ddde39d3
+
+COCOAPODS: 1.9.3
