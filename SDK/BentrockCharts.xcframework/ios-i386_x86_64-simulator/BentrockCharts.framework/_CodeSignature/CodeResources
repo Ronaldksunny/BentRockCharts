@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U1AABNEudXNyQs0Iwu1zs7kgVEk=
+		6CP75il6zymsv8KzdTaY8sWIgdE=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
+		57wEwON87WAxmUxge7sl1v+Sw90=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftmodule</key>
 		<data>
-		+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
+		57wEwON87WAxmUxge7sl1v+Sw90=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
+		Dz6mOjihbtMArU3QDSWztkJdBts=
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
+		Dz6mOjihbtMArU3QDSWztkJdBts=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,11 +119,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
+			57wEwON87WAxmUxge7sl1v+Sw90=
 			</data>
 			<key>hash2</key>
 			<data>
-			dj0LA6hdXmO3oFzKN036/sp+JWt0gGhqHbSy/4Us6Ow=
+			Jg66Zk6SMZFjyKHk3gOjn6w017ODqbf7vTmu2M9Jyow=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/i386.swiftdoc</key>
@@ -152,11 +152,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+A1cS3A2/Mo2V2PxKW9/gzeoqLs=
+			57wEwON87WAxmUxge7sl1v+Sw90=
 			</data>
 			<key>hash2</key>
 			<data>
-			dj0LA6hdXmO3oFzKN036/sp+JWt0gGhqHbSy/4Us6Ow=
+			Jg66Zk6SMZFjyKHk3gOjn6w017ODqbf7vTmu2M9Jyow=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
+			Dz6mOjihbtMArU3QDSWztkJdBts=
 			</data>
 			<key>hash2</key>
 			<data>
-			rjxAkSTJS2IOz7t6UtXlDDkO4jCSSdVSKS8pi4wmLRs=
+			YFWGsio2qmMHxPFporQge+Iq37th1fZm1ynYiMiM7rk=
 			</data>
 		</dict>
 		<key>Modules/BentrockCharts.swiftmodule/x86_64.swiftdoc</key>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zl0dj5uYQ7WvL8c2SDRoIgE7eqw=
+			Dz6mOjihbtMArU3QDSWztkJdBts=
 			</data>
 			<key>hash2</key>
 			<data>
-			rjxAkSTJS2IOz7t6UtXlDDkO4jCSSdVSKS8pi4wmLRs=
+			YFWGsio2qmMHxPFporQge+Iq37th1fZm1ynYiMiM7rk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

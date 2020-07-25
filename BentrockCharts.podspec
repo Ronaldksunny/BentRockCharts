@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "BentrockCharts"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A library created in swift to draw chats."
   spec.description  = <<-DESC
   This library is created to render the chart based on the data provided in json format.

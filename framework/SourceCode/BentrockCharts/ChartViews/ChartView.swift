@@ -41,13 +41,13 @@ public class ChartView: UIView {
 }
 
 
-extension CGFloat {
+internal extension CGFloat {
     static func random() -> CGFloat {
         return CGFloat(arc4random()) / CGFloat(UInt32.max)
     }
 }
 
-extension UIColor {
+internal extension UIColor {
     static func random() -> UIColor {
         return UIColor(red:   .random(),
                        green: .random(),
@@ -56,11 +56,11 @@ extension UIColor {
     }
 }
 
-extension Collection {
+internal extension Collection {
     
     /// Returns the element at the specified index iff it is within bounds, otherwise nil.
     //  from: http://stackoverflow.com/questions/25329186/safe-bounds-checked-array-lookup-in-swift-through-optional-bindings
-    internal subscript (safe index: Index) -> Iterator.Element? {
+    subscript (safeIndex index: Index) -> Iterator.Element? {
         return indices.contains(index) ? self[index] : nil
     }
 }

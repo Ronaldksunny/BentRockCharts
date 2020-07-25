@@ -141,7 +141,7 @@ public class BarChartView: ChartView {
         let labelWidth = legendSpacing - Constants.legendBoxSize/2 - 5
         
         for (index, color) in colorsArray.enumerated() {
-            if let title = data[safe: index]?.title {
+            if let title = data[safeIndex: index]?.title {
                 let xPoint = startXPoint + legendSpacing*CGFloat(index)
                 let path = legendPath
                 path.move(to: CGPoint(x: xPoint, y: startYPoint))
@@ -165,7 +165,7 @@ public class BarChartView: ChartView {
     private func renderPaths() {
         
         func colorForPath(_ index: Int) -> UIColor {
-            if let color = colorsArray[safe: index] {
+            if let color = colorsArray[safeIndex: index] {
                 return color
             } else {
                 let pathColor = UIColor.random()
