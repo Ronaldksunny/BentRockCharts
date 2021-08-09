@@ -1,0 +1,29 @@
+{
+  "name": "BentrockCharts",
+  "version": "0.3.0",
+  "summary": "A library created in swift to draw chats.",
+  "description": "This library is created to render the chart based on the data provided in json format.",
+  "homepage": "https://github.com/Ronaldksunny/BentrockCharts/blob/master/README.md",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ronald K Sunny": "ronaldksunny@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "4.2",
+  "source": {
+    "git": "https://github.com/Ronaldksunny/BentrockCharts.git",
+    "tag": "0.3.0"
+  },
+  "public_header_files": "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/*.h",
+  "source_files": "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/*.h",
+  "vendored_frameworks": [
+    "SDK/BentrockCharts.xcframework",
+    "SDK/Chart.xcframework"
+  ],
+  "swift_version": "4.2"
+}

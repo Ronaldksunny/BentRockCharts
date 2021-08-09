@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9717CBA68C44DE3A979AE4A54BB5AF69 /* BentrockCharts */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 42036FDB9505797B4225E0554E637566 /* Build configuration list for PBXAggregateTarget "BentrockCharts" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BentrockCharts;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		20B685C452E01AEA7A51DEF43E0F7331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2EA7D3009DCADD20F6A4630D67AA4982 /* Pods-BentrockChartsDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D506DE2558CA6A8445353263AF91F551 /* Pods-BentrockChartsDemo-dummy.m */; };
+		D92EB3D17E7407A85DBDA9786755626B /* Pods-BentrockChartsDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE8C270370403DC3C52C07B773239F8 /* Pods-BentrockChartsDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97C60EFB821F3F4177D42829273C0F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717CBA68C44DE3A979AE4A54BB5AF69;
+			remoteInfo = BentrockCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016D2110DBEE9095A0FA2E2D3DCFACBE /* Pods-BentrockChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BentrockChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0F56DCD0CB87398FCBB554B2732FBD38 /* BentrockCharts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BentrockCharts.h; path = "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/BentrockCharts.h"; sourceTree = "<group>"; };
+		1D67248545332C5E328CF68F9EB2D758 /* Pods-BentrockChartsDemo-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BentrockChartsDemo-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		28A5812D85762F9397358301C5E4E80F /* Pods-BentrockChartsDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BentrockChartsDemo.modulemap"; sourceTree = "<group>"; };
+		2A0E87447EAC4C58451360D2FC45F48F /* Pods-BentrockChartsDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BentrockChartsDemo-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41629FDE23083E2DAC7FFA492C77CD2F /* BentrockCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BentrockCharts.debug.xcconfig; sourceTree = "<group>"; };
+		525101D3CA2E57AEFF483C12EDD95EF6 /* Pods-BentrockChartsDemo-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BentrockChartsDemo-artifacts.sh"; sourceTree = "<group>"; };
+		5DFA3094F5D0BD0F2FEB8535CCD8B374 /* Pods-BentrockChartsDemo-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BentrockChartsDemo-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		6040CCF6D56EA4DAA2535BEBEAC0C0B9 /* Pods-BentrockChartsDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BentrockChartsDemo-frameworks.sh"; sourceTree = "<group>"; };
+		6CD5901CBBBDE1830A9E742591F6F723 /* BentrockCharts-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BentrockCharts-Swift.h"; path = "SDK/BentrockCharts.xcframework/ios-armv7_arm64/BentrockCharts.framework/Headers/BentrockCharts-Swift.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1666FE3B129D435F600F8220241D53F /* Pods-BentrockChartsDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BentrockChartsDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0B10D01264EDFBD743BC17BEA977392 /* Pods-BentrockChartsDemo-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BentrockChartsDemo-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		CFA224CA3D4EC5728A12602BD84CF910 /* Pods-BentrockChartsDemo-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BentrockChartsDemo-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		D13713F997C019AFD80C75686FE2ED1C /* Pods_BentrockChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BentrockChartsDemo.framework; path = "Pods-BentrockChartsDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D506DE2558CA6A8445353263AF91F551 /* Pods-BentrockChartsDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BentrockChartsDemo-dummy.m"; sourceTree = "<group>"; };
+		E245D2DFBB0FF675036A774C5A98F947 /* Pods-BentrockChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BentrockChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EDE8C270370403DC3C52C07B773239F8 /* Pods-BentrockChartsDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BentrockChartsDemo-umbrella.h"; sourceTree = "<group>"; };
+		F1A1419F631F7670A405FF5093DAB9E7 /* BentrockCharts.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = BentrockCharts.xcframework; path = SDK/BentrockCharts.xcframework; sourceTree = "<group>"; };
+		F2CF7F0D77CE1D79EF4EA2C8C134F913 /* Pods-BentrockChartsDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BentrockChartsDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC74F9785FFF54A348C601F022734ABC /* BentrockCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BentrockCharts.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B88397F229318B1E0025BB59DAE7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B685C452E01AEA7A51DEF43E0F7331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D4E3B5AC44F86EC95BC486C7EBA9DD /* BentrockCharts */ = {
+			isa = PBXGroup;
+			children = (
+				0F56DCD0CB87398FCBB554B2732FBD38 /* BentrockCharts.h */,
+				6CD5901CBBBDE1830A9E742591F6F723 /* BentrockCharts-Swift.h */,
+				C0E4F45EC01FE0E21B47E45D99F1E268 /* Frameworks */,
+				BEB575F30ED6CE9C212667102290682F /* Support Files */,
+			);
+			name = BentrockCharts;
+			path = BentrockCharts;
+			sourceTree = "<group>";
+		};
+		7C8965317F3A34B11B510EFC0BD7DD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13713F997C019AFD80C75686FE2ED1C /* Pods_BentrockChartsDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E105882BAF6FF0CA9C46375360C6740 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F6E77316C125489AF7E1BDFE10DAC8 /* Pods-BentrockChartsDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		90F6E77316C125489AF7E1BDFE10DAC8 /* Pods-BentrockChartsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				28A5812D85762F9397358301C5E4E80F /* Pods-BentrockChartsDemo.modulemap */,
+				F2CF7F0D77CE1D79EF4EA2C8C134F913 /* Pods-BentrockChartsDemo-acknowledgements.markdown */,
+				A1666FE3B129D435F600F8220241D53F /* Pods-BentrockChartsDemo-acknowledgements.plist */,
+				525101D3CA2E57AEFF483C12EDD95EF6 /* Pods-BentrockChartsDemo-artifacts.sh */,
+				CFA224CA3D4EC5728A12602BD84CF910 /* Pods-BentrockChartsDemo-artifacts-Debug-input-files.xcfilelist */,
+				1D67248545332C5E328CF68F9EB2D758 /* Pods-BentrockChartsDemo-artifacts-Debug-output-files.xcfilelist */,
+				C0B10D01264EDFBD743BC17BEA977392 /* Pods-BentrockChartsDemo-artifacts-Release-input-files.xcfilelist */,
+				5DFA3094F5D0BD0F2FEB8535CCD8B374 /* Pods-BentrockChartsDemo-artifacts-Release-output-files.xcfilelist */,
+				D506DE2558CA6A8445353263AF91F551 /* Pods-BentrockChartsDemo-dummy.m */,
+				6040CCF6D56EA4DAA2535BEBEAC0C0B9 /* Pods-BentrockChartsDemo-frameworks.sh */,
+				2A0E87447EAC4C58451360D2FC45F48F /* Pods-BentrockChartsDemo-Info.plist */,
+				EDE8C270370403DC3C52C07B773239F8 /* Pods-BentrockChartsDemo-umbrella.h */,
+				016D2110DBEE9095A0FA2E2D3DCFACBE /* Pods-BentrockChartsDemo.debug.xcconfig */,
+				E245D2DFBB0FF675036A774C5A98F947 /* Pods-BentrockChartsDemo.release.xcconfig */,
+			);
+			name = "Pods-BentrockChartsDemo";
+			path = "Target Support Files/Pods-BentrockChartsDemo";
+			sourceTree = "<group>";
+		};
+		BEB575F30ED6CE9C212667102290682F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41629FDE23083E2DAC7FFA492C77CD2F /* BentrockCharts.debug.xcconfig */,
+				FC74F9785FFF54A348C601F022734ABC /* BentrockCharts.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BentrockCharts";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0E4F45EC01FE0E21B47E45D99F1E268 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1A1419F631F7670A405FF5093DAB9E7 /* BentrockCharts.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA085CB4AE2FAD444C1481314243CEC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29D4E3B5AC44F86EC95BC486C7EBA9DD /* BentrockCharts */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CA085CB4AE2FAD444C1481314243CEC5 /* Pods */,
+				7C8965317F3A34B11B510EFC0BD7DD3E /* Products */,
+				8E105882BAF6FF0CA9C46375360C6740 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		724DB834C66C281F6B6C45E9FD65857F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92EB3D17E7407A85DBDA9786755626B /* Pods-BentrockChartsDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8671CF02DFA0030C98F42A4ACA0A72C /* Pods-BentrockChartsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B038EE8EE8D1BB55AF45C41BA792A0D4 /* Build configuration list for PBXNativeTarget "Pods-BentrockChartsDemo" */;
+			buildPhases = (
+				724DB834C66C281F6B6C45E9FD65857F /* Headers */,
+				BFBAFC7D921BA676CC663C3CEA1E71ED /* Sources */,
+				62B88397F229318B1E0025BB59DAE7A2 /* Frameworks */,
+				1F2713388B4952E43B3C4DB0E928AA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8AB21AD8293B623E7C64F722EEA255C /* PBXTargetDependency */,
+			);
+			name = "Pods-BentrockChartsDemo";
+			productName = "Pods-BentrockChartsDemo";
+			productReference = D13713F997C019AFD80C75686FE2ED1C /* Pods_BentrockChartsDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C8965317F3A34B11B510EFC0BD7DD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9717CBA68C44DE3A979AE4A54BB5AF69 /* BentrockCharts */,
+				F8671CF02DFA0030C98F42A4ACA0A72C /* Pods-BentrockChartsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F2713388B4952E43B3C4DB0E928AA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFBAFC7D921BA676CC663C3CEA1E71ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA7D3009DCADD20F6A4630D67AA4982 /* Pods-BentrockChartsDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8AB21AD8293B623E7C64F722EEA255C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BentrockCharts;
+			target = 9717CBA68C44DE3A979AE4A54BB5AF69 /* BentrockCharts */;
+			targetProxy = 97C60EFB821F3F4177D42829273C0F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4928A0CE2EDFDEE54ADD181A6766C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC74F9785FFF54A348C601F022734ABC /* BentrockCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57464B6E7BC3C2787CAABE72FD70BC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E245D2DFBB0FF675036A774C5A98F947 /* Pods-BentrockChartsDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C78116DC30F721793600127D8774B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41629FDE23083E2DAC7FFA492C77CD2F /* BentrockCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8228906932B696B31883BE95187B29A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016D2110DBEE9095A0FA2E2D3DCFACBE /* Pods-BentrockChartsDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42036FDB9505797B4225E0554E637566 /* Build configuration list for PBXAggregateTarget "BentrockCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C78116DC30F721793600127D8774B5F /* Debug */,
+				4928A0CE2EDFDEE54ADD181A6766C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B038EE8EE8D1BB55AF45C41BA792A0D4 /* Build configuration list for PBXNativeTarget "Pods-BentrockChartsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8228906932B696B31883BE95187B29A8 /* Debug */,
+				57464B6E7BC3C2787CAABE72FD70BC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

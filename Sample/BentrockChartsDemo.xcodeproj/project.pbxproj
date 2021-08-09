@@ -13,9 +13,11 @@
 		61C9075B22E657E4008CDCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075A22E657E4008CDCF4 /* Assets.xcassets */; };
 		61C9075E22E657E4008CDCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61C9075C22E657E4008CDCF4 /* LaunchScreen.storyboard */; };
 		61C9078222E66098008CDCF4 /* ChartData.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C9078122E66098008CDCF4 /* ChartData.json */; };
+		81B3ADBBD9F8E83D3D898AB1 /* Pods_BentrockChartsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA27E04F3E08DC1BF48F463 /* Pods_BentrockChartsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11DB4C9C0EE10A4A7BD3AFD8 /* Pods-BentrockChartsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentrockChartsDemo.debug.xcconfig"; path = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		61C9075022E657E2008CDCF4 /* BentrockChartsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BentrockChartsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C9075322E657E2008CDCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61C9075522E657E2008CDCF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		61C9076822E657E4008CDCF4 /* BentrockChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentrockChartsTests.swift; sourceTree = "<group>"; };
 		61C9076A22E657E4008CDCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61C9078122E66098008CDCF4 /* ChartData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChartData.json; sourceTree = "<group>"; };
+		6C6EDCD48D5D26C2F17B588C /* Pods-BentrockChartsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BentrockChartsDemo.release.xcconfig"; path = "Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8DA27E04F3E08DC1BF48F463 /* Pods_BentrockChartsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BentrockChartsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B3ADBBD9F8E83D3D898AB1 /* Pods_BentrockChartsDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +50,8 @@
 				61C9075222E657E2008CDCF4 /* BentrockChartsDemo */,
 				61C9076722E657E4008CDCF4 /* BentrockChartsDemoTests */,
 				61C9075122E657E2008CDCF4 /* Products */,
+				E9386B3610224DF4F72EC33D /* Pods */,
+				BB500D6B825D8266ECEAA163 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +94,24 @@
 			path = SampleData;
 			sourceTree = "<group>";
 		};
+		BB500D6B825D8266ECEAA163 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DA27E04F3E08DC1BF48F463 /* Pods_BentrockChartsDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9386B3610224DF4F72EC33D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DB4C9C0EE10A4A7BD3AFD8 /* Pods-BentrockChartsDemo.debug.xcconfig */,
+				6C6EDCD48D5D26C2F17B588C /* Pods-BentrockChartsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,10 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61C9076D22E657E4008CDCF4 /* Build configuration list for PBXNativeTarget "BentrockChartsDemo" */;
 			buildPhases = (
+				706145123C23E6DA126E26FA /* [CP] Check Pods Manifest.lock */,
 				57CC86557FC0067FDDB53C13 /* [CP] Prepare Artifacts */,
 				61C9074C22E657E2008CDCF4 /* Sources */,
 				61C9074D22E657E2008CDCF4 /* Frameworks */,
 				61C9074E22E657E2008CDCF4 /* Resources */,
+				0549DB14DD7C44BB94E7242F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +183,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0549DB14DD7C44BB94E7242F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		57CC86557FC0067FDDB53C13 /* [CP] Prepare Artifacts */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,6 +215,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BentrockChartsDemo/Pods-BentrockChartsDemo-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706145123C23E6DA126E26FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BentrockChartsDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -325,6 +391,7 @@
 		};
 		61C9076E22E657E4008CDCF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DB4C9C0EE10A4A7BD3AFD8 /* Pods-BentrockChartsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -348,6 +415,7 @@
 		};
 		61C9076F22E657E4008CDCF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6EDCD48D5D26C2F17B588C /* Pods-BentrockChartsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
