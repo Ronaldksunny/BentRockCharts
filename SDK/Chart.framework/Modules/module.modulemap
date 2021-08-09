@@ -1,0 +1,11 @@
+framework module Chart {
+  umbrella header "Chart.h"
+
+  export *
+  module * { export * }
+}
+
+module Chart.Swift {
+    header "Chart-Swift.h"
+    requires objc
+}
